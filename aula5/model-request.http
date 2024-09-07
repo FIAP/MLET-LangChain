@@ -1,0 +1,8 @@
+curl --location 'http://localhost:11434/api/chat' \
+--header 'Content-Type: application/json' \
+--data '{
+  "model": "phi3",
+  "messages": [
+    { "role": "user", "content": "Me fale um investimento bom para iniciantes ?" }
+  ]
+}'
